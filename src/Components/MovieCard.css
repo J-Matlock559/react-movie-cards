@@ -1,0 +1,23 @@
+.movie-card {
+    box-sizing: border-box;
+    min-width: 21rem;
+    min-height: 36rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;;
+    background-color: rgb(217, 226, 235);
+}
+
+.movie-title {
+    max-width: 300px;
+}
+
+.media-type {
+    background-color: pink;
+    width: 5rem;
+    border: 2px solid red;
+    border-radius: 10px;
+    color: red;
+    padding: .5rem;
+    text-align: center;
+}

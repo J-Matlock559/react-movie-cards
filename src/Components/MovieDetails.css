@@ -1,0 +1,38 @@
+.details-bg {
+  display: flex;
+  align-items: flex-start;
+  background-color: aliceblue;
+  pointer-events: none;
+}
+
+.movie-poster {
+  display: inline-block;
+}
+
+.movie-details {
+  margin-left: 20px;
+  /* max-width: 350px; */
+}
+
+.info-pill {
+  background-color: #ccc;
+  width: fit-content;
+  font-size: small;
+  margin: .3rem;
+  margin-top: 0px;
+  padding: 5px 15px;
+  border-radius: 5px;;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.mb {
+  margin-bottom: -10px;
+}
+
+.rating {
+  float: right;
+  margin-left: 10px;
+}

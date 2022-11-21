@@ -1,0 +1,38 @@
+.modal-body {
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .6);
+    height: 100vh;
+    width: 100vw;
+}
+
+.modal-card {
+    padding: 10px;
+    height: fit-content;
+    max-width: 38vw;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.modal-button {
+    float: right;
+    padding: 5px;
+    background-color: aliceblue;
+    border: none;
+    font-size: larger;
+}
+
+@media (max-width: 1440px) {
+    .modal-card{
+        max-width: 60vw;
+    }
+}
+
+@media (max-width: 900px) {
+    .modal-card{
+        max-width: 80vw;
+    }
+}
